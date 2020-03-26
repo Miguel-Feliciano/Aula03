@@ -18,10 +18,10 @@ namespace PercorreString
             foreach (char cDaStr in str);
             {
                 // imprimir carater da string, exceto se for carater c
-            if (cDaStr != c[0])
-            {
-                Console.Write(cDaStr);
-            }
+                if (cDaStr != c[0])
+                {
+                    Console.Write(cDaStr);
+                }
             
             }
             Console.WriteLine();
